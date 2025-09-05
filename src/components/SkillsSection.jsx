@@ -13,7 +13,7 @@ const skills = [
   { name: "TypeScript", category: "Frontend" },
   { name: "React", category: "Frontend" },
   { name: "Vue.js", category: "Frontend" },
-  { name: "Next.js", category: "fFrontend" },
+  { name: "Next.js", category: "Frontend" },
   { name: "Tailwind CSS", category: "Frontend" },
 
   // Backend
