@@ -44,7 +44,7 @@ const projects = [
       "Web app for task creation, management (CRUD), and search with two roles (User/Admin) and role-based access. Admins can view, edit, and delete all tasks. Includes user feedback to improve UX and password hashing for security. Built with HTML, CSS, JavaScript, PHP, and a hosted SQL database.",
     image: "/Projects/trello.png",
     tags: ["HTML", "CSS", "JavaScript", "PHP", "SQL"],
-    demoUrl: "#",
+    demoUrl: "https://github.com/Nova-VI/PHP-RT2",
   },
 ];
 
@@ -78,11 +78,11 @@ export const ProjectsSection = () => {
               </div>
 
               <div className="p-6 flex flex-col flex-1">
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-2 mb-4 min-h-12 md:min-h-16 items-start content-start">
                   {project.tags.map((tag, idx) => (
                     <span
                       key={`tag-${project.id}-${idx}`}
-                      className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"
+                      className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground leading-none whitespace-nowrap"
                     >
                       {tag}
                     </span>

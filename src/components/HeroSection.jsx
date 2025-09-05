@@ -20,10 +20,8 @@ export const HeroSection = () => {
             </span>
           </h1>
 
-          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I create stellar web experiences with modern technologies. <br />
-            Specializing in front-end development, I build interfaces that are <br />
-            both beautiful and functional. <br/>
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+            Computer science student with experience in full‑stack development, DevOps automation, and game development, with a strong interest in AI.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
